@@ -64,3 +64,83 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+#bigbox {
+	width: 75%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+nav {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	margin: 2.5% 0px;
+}
+
+nav a {
+	margin: 0px 8% 0px 0px;
+	color: lightgrey;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.logo {
+	margin: 0px 0px 0px 5%;
+	vertical-align: middle;
+	
+}
+
+.intro {
+	display: inline-block;
+	margin: 5%;
+	vertical-align: middle;
+}
+
+.slogan {
+    font-family: 'Bangers', cursive;
+    font-size: 75px;
+    text-align: center;
+    display: inline-block;
+}
+
+.slogan a {
+	font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+    width: 180px;
+    margin: 0px 20px;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.Container1 {
+	display: inline-block;
+	width: 40%;
+    box-sizing: border-box;
+    margin: 2.5% 0.5%;
+}
+
+.Container2 {
+	display: inline-block;
+	width: 26%;
+    box-sizing: border-box;
+    margin: 2.5% 0.5%;
+}
+
+p {
+    text-align: left;
+}
+
+h2 {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Bangers', cursive;
+}
+
+address {
+	text-align: left;
+}
